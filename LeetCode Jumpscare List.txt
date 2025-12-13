@@ -1,1 +1,2 @@
+84. Largest Rectangle in Histogram
 287. Find the Duplicate Number
