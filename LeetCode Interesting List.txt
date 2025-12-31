@@ -2,4 +2,5 @@
 114. Flatten Binary Tree to Linked List
 239. Sliding Window Maximum
 950. Reveal Cards In Increasing Order
+1268. Search Suggestions System
 1506. Find Root of N-Ary Tree
