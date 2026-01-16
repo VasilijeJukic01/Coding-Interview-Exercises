@@ -3,5 +3,6 @@
 105. Construct Binary Tree from Preorder and Inorder Traversal
 287. Find the Duplicate Number
 621. Task Scheduler
+862. Shortest Subarray with Sum at Least K
 1146. Snapshot Array
 1948. Delete Duplicate Folders in System
