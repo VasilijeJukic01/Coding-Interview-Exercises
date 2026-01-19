@@ -4,7 +4,9 @@
 238. Product of Array Except Self
 239. Sliding Window Maximum
 253. Meeting Rooms II
+424. Longest Repeating Character Replacement
 676. Implement Magic Dictionary
+930. Binary Subarrays With Sum
 950. Reveal Cards In Increasing Order
 1268. Search Suggestions System
 1506. Find Root of N-Ary Tree
