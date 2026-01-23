@@ -6,3 +6,4 @@
 862. Shortest Subarray with Sum at Least K
 1146. Snapshot Array
 1948. Delete Duplicate Folders in System
+2106. Maximum Fruits Harvested After at Most K Steps
