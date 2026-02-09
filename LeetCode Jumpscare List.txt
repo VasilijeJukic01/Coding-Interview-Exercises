@@ -2,8 +2,10 @@
 81. Search in Rotated Sorted Array II
 105. Construct Binary Tree from Preorder and Inorder Traversal
 287. Find the Duplicate Number
+330. Patching Array
 621. Task Scheduler
 862. Shortest Subarray with Sum at Least K
+995. Minimum Number of K Consecutive Bit Flips
 1146. Snapshot Array
 1948. Delete Duplicate Folders in System
 2106. Maximum Fruits Harvested After at Most K Steps
