@@ -9,5 +9,6 @@
 676. Implement Magic Dictionary
 930. Binary Subarrays With Sum
 950. Reveal Cards In Increasing Order
+1146. Snapshot Array
 1268. Search Suggestions System
 1506. Find Root of N-Ary Tree
