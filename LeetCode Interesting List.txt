@@ -3,6 +3,7 @@
 114. Flatten Binary Tree to Linked List
 238. Product of Array Except Self
 239. Sliding Window Maximum
+241. Different Ways to Add Parentheses
 253. Meeting Rooms II
 261. Graph Valid Tree
 424. Longest Repeating Character Replacement
