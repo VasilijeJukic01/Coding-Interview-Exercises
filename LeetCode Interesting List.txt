@@ -8,6 +8,7 @@
 261. Graph Valid Tree
 424. Longest Repeating Character Replacement
 676. Implement Magic Dictionary
+696. Count Binary Substrings
 930. Binary Subarrays With Sum
 950. Reveal Cards In Increasing Order
 1146. Snapshot Array
