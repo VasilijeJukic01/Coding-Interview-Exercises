@@ -11,30 +11,19 @@
  */
 class Solution {
 public:
-    int binToInt(string bin) {
-        int res = 0;
-        for (int i = 0; i < bin.size(); i++) {
-            res += (bin[i] - '0') * pow(2, bin.size() - 1 - i);
-        }
-        return res;
-    }
+    int solve(TreeNode* root, int curr) {
+        if (root == nullptr) return 0;
 
-    void sum(TreeNode* root, int &total, string curr) {
-        if (root == nullptr) return;
+        curr = (curr << 1) | root->val;
 
-        curr += to_string(root->val);
-
-        if (root->left == nullptr && root->right == nullptr) {
-            total += binToInt(curr);
+        if (!root->left && !root->right) {
+            return curr;
         }
 
-        sum(root->left, total, curr);
-        sum(root->right, total, curr);
+        return solve(root->left, curr) + solve(root->right,curr);
     }
 
     int sumRootToLeaf(TreeNode* root) {
-        int total = 0;
-        sum(root, total, "");
-        return total;
+        return solve(root, 0);
     }
 };
