@@ -8,6 +8,7 @@
 621. Task Scheduler
 698. Partition to K Equal Sum Subsets
 862. Shortest Subarray with Sum at Least K
+918. Maximum Sum Circular Subarray
 932. Beautiful Array
 995. Minimum Number of K Consecutive Bit Flips
 1948. Delete Duplicate Folders in System
