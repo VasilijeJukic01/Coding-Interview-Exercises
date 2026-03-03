@@ -8,6 +8,7 @@
 253. Meeting Rooms II
 261. Graph Valid Tree
 424. Longest Repeating Character Replacement
+494. Target Sum
 676. Implement Magic Dictionary
 696. Count Binary Substrings
 930. Binary Subarrays With Sum
