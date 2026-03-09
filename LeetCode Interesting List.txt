@@ -2,6 +2,7 @@
 84. Largest Rectangle in Histogram
 91. Decode Ways
 114. Flatten Binary Tree to Linked List
+120. Triangle
 238. Product of Array Except Self
 239. Sliding Window Maximum
 241. Different Ways to Add Parentheses
@@ -12,6 +13,7 @@
 494. Target Sum
 676. Implement Magic Dictionary
 696. Count Binary Substrings
+799. Champagne Tower
 930. Binary Subarrays With Sum
 950. Reveal Cards In Increasing Order
 1146. Snapshot Array

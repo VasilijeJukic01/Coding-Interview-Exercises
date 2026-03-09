@@ -13,5 +13,6 @@
 932. Beautiful Array
 995. Minimum Number of K Consecutive Bit Flips
 1049. Last Stone Weight II
+1504. Count Submatrices With All Ones
 1948. Delete Duplicate Folders in System
 2106. Maximum Fruits Harvested After at Most K Steps
