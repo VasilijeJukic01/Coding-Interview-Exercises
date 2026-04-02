@@ -4,10 +4,12 @@
 105. Construct Binary Tree from Preorder and Inorder Traversal
 174. Dungeon Game
 188. Best Time to Buy and Sell Stock IV
+218. The Skyline Problem
 287. Find the Duplicate Number
 282. Expression Add Operators
 312. Burst Balloons
 330. Patching Array
+391. Perfect Rectangle
 395. Longest Substring with At Least K Repeating Characters
 621. Task Scheduler
 698. Partition to K Equal Sum Subsets
