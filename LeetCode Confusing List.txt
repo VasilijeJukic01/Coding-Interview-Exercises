@@ -22,3 +22,4 @@
 1504. Count Submatrices With All Ones
 1948. Delete Duplicate Folders in System
 2106. Maximum Fruits Harvested After at Most K Steps
+3363. Find the Maximum Number of Fruits Collected
