@@ -12,6 +12,7 @@
 391. Perfect Rectangle
 395. Longest Substring with At Least K Repeating Characters
 621. Task Scheduler
+685. Redundant Connection II
 698. Partition to K Equal Sum Subsets
 862. Shortest Subarray with Sum at Least K
 918. Maximum Sum Circular Subarray
