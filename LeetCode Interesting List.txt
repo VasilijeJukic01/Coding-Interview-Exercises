@@ -18,4 +18,5 @@
 950. Reveal Cards In Increasing Order
 1146. Snapshot Array
 1268. Search Suggestions System
+1344. Angle Between Hands of a Clock
 1506. Find Root of N-Ary Tree
