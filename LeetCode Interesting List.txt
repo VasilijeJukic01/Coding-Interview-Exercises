@@ -20,3 +20,4 @@
 1268. Search Suggestions System
 1344. Angle Between Hands of a Clock
 1506. Find Root of N-Ary Tree
+3737. Count Subarrays With Majority Element I
