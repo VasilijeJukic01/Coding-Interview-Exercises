@@ -1,6 +1,6 @@
 class Solution {
 public:
-    string smallestSubsequence(string s) {
+    string removeDuplicateLetters(string s) {
         vector<int> map(26, 0);
         for (int i = 0; i < s.size(); i++) {
             map[s[i] - 'a'] = i;
