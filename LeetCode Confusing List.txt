@@ -26,3 +26,4 @@
 3363. Find the Maximum Number of Fruits Collected
 3499. Maximize Active Section with Trade I
 [2490 RATING!!!] 3501. Maximize Active Section with Trade II
+3514. Number of Unique XOR Triplets II
