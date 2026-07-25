@@ -9,6 +9,7 @@
 253. Meeting Rooms II
 261. Graph Valid Tree
 343. Integer Break
+362. Design Hit Counter
 424. Longest Repeating Character Replacement
 494. Target Sum
 676. Implement Magic Dictionary
