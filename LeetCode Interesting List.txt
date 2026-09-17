@@ -22,6 +22,7 @@
 1146. Snapshot Array
 1268. Search Suggestions System
 1344. Angle Between Hands of a Clock
+1477. Find Two Non-overlapping Sub-arrays Each With Target Sum
 1506. Find Root of N-Ary Tree
 2213. Longest Substring of One Repeating Character
 2812. Find the Safest Path in a Grid
