@@ -25,7 +25,9 @@
 1504. Count Submatrices With All Ones
 1948. Delete Duplicate Folders in System
 2106. Maximum Fruits Harvested After at Most K Steps
+2771. Longest Non-decreasing Subarray From Two Arrays
 3363. Find the Maximum Number of Fruits Collected
 3499. Maximize Active Section with Trade I
 [2490 RATING!!!] 3501. Maximize Active Section with Trade II
 3514. Number of Unique XOR Triplets II
+3524. Find X Value of Array I
