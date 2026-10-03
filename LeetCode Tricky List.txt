@@ -23,6 +23,7 @@
 1049. Last Stone Weight II
 1096. Brace Expansion II
 1386. Cinema Seat Allocation
+1425. Constrained Subsequence Sum
 1504. Count Submatrices With All Ones
 1948. Delete Duplicate Folders in System
 2106. Maximum Fruits Harvested After at Most K Steps
