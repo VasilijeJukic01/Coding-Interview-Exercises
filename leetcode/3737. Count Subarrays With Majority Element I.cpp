@@ -1,68 +1,61 @@
 class Solution {
 public:
-    void conquer(vector<int>& pSum, int start, int end, int mid, int &total) {
-        vector<int> left, right;
-        for (int i = start; i <= mid; i++) {
-            left.push_back(pSum[i]);
-        }
-        for (int i = mid + 1; i <= end; i++) {
-            right.push_back(pSum[i]);
-        }
+    int conquer(vector<int>& pSum, int s, int e, int mid, vector<int>& tmp) {
+        int total = 0;
 
-        int ones = 0, zeros = 0;
-        int l = 0, r = 0;
-        // Count
-        while (l < left.size() && r < right.size()) {
-            if (left[l] < right[r]) {
-                total += right.size() - r;
-                l++;
+        int left = s, right = mid + 1;
+        while (left <= mid && right <= e) {
+            if (pSum[right] > pSum[left]) {
+                total += (e - right + 1);
+                left++;
             }
-            else r++;
+            else right++;
         }
 
-        // Sort
-        l = 0, r = 0;
-        int write = start;
-        while (l < left.size() && r < right.size()) {
-            if (left[l] <= right[r]) {
-                pSum[write++] = left[l++];
-            }
-            else pSum[write++] = right[r++];
+        left = s, right = mid + 1;
+        int write = s;
+        while (left <= mid && right <= e) {
+            if (pSum[left] < pSum[right]) tmp[write++] = pSum[left++];
+            else tmp[write++] = pSum[right++];
+        }
+        while (left <= mid) {
+            tmp[write++] = pSum[left++];
+        }
+        while (right <= e) {
+            tmp[write++] = pSum[right++];
         }
 
-        while (l < left.size()) {
-            pSum[write++] = left[l++];
+        for (int i = s; i <= e; i++) {
+            pSum[i] = tmp[i];
         }
 
-        while (r < right.size()) {
-            pSum[write++] = right[r++];
-        }
+        return total;
     }
 
-    void solve(vector<int>& pSum, int start, int end, int &total) {
-        if (start >= end) return;
+    int solve(vector<int>& pSum, int s, int e, vector<int>& tmp) {
+        if (s >= e) return 0;
 
-        int mid = start + (end - start) / 2;
-        solve(pSum, start, mid, total);
-        solve(pSum, mid + 1, end, total);
+        int mid = s + (e - s) / 2;
+        int count = solve(pSum, s, mid, tmp) + solve(pSum, mid + 1, e, tmp);
+        count += conquer(pSum, s, e, mid, tmp);
 
-        conquer(pSum, start, end, mid, total);
+        return count;
     }
 
     int countMajoritySubarrays(vector<int>& nums, int target) {
         int n = nums.size();
+
         for (int i = 0; i < n; i++) {
             if (nums[i] == target) nums[i] = 1;
             else nums[i] = -1;
         }
-
+        
         vector<int> pSum(n + 1, 0);
         for (int i = 0; i < n; i++) {
             pSum[i + 1] = pSum[i] + nums[i];
         }
 
-        int total = 0;
-        solve(pSum, 0, n, total);
-        return total;
+        vector<int> tmp(n + 1);
+        return solve(pSum, 0, n, tmp);
     }
 };
