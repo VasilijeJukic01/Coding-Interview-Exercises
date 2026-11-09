@@ -24,6 +24,7 @@
 1344. Angle Between Hands of a Clock
 1477. Find Two Non-overlapping Sub-arrays Each With Target Sum
 1506. Find Root of N-Ary Tree
+1606. Find Servers That Handled Most Number of Requests
 2213. Longest Substring of One Repeating Character
 2812. Find the Safest Path in a Grid
 3737. Count Subarrays With Majority Element I
